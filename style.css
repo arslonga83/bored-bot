@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+button {
+  border-radius: 50%;
+  width: 8em;
+  height: 8em;
+  background: red;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: .8;
+}
