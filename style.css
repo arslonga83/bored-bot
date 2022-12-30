@@ -20,27 +20,46 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 h4 {
-  font-size: 2rem;
+  font-size: 1rem;
+  height: 3rem;
   text-align: center;
 }
 
 button {
   border-radius: 50%;
-  width: 8em;
-  height: 8em;
+  width: 4em;
+  height: 4em;
   background: red;
   color: white;
   font-weight: bolder;
   border: none;
   outline: none;
-  font-size: 2rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 
 button:hover {
   opacity: .8;
+}
+
+button:active {
+  transform: scale(1.05)
+}
+
+@media(min-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  button {
+    width: 8em;
+    height: 8em;
+    font-size: 2rem;
+  }
 }
